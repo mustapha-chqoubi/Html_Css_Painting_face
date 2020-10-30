@@ -1,0 +1,181 @@
+*{
+    margin: 1;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: gray
+}
+
+/*mustache*/
+.mustache{
+    margin: 0 0 0 60px;
+    position: relative;
+    bottom: 375px
+}
+
+.mustache .left{
+    background-color: black;
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+    margin: 200px 100px 100px 500px;
+    border-bottom-left-radius: 100px
+}
+
+.mustache .right{
+    background-color:black;
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 300px;
+    left: 600px;
+    border-bottom-right-radius: 100px;
+}
+
+.leftChild{
+    background-color: black;
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 260px; /*250px*/
+    left: 430px;
+    border-bottom-left-radius: 20000px;
+    border-top-right-radius: 20000px;
+}
+
+.rightChild{
+    background-color: black;
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 460px; /*450px*/
+    left: 670px;
+    border-bottom-right-radius: 20000px;
+    border-top-left-radius: 20000px
+}
+/*mustache*/
+
+/*eyes*/
+/*eyeBrows*/
+.eyeBrows{
+    position: relative;
+    left: 70px;
+    top: 20px
+}
+
+.eyeBrows .left{
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 5px 0 0 500px;
+    position: relative;
+    left: 30px;
+    border-top-right-radius: 1000px;
+    border-bottom-left-radius: 1000px
+}
+
+.eyeBrows .right{
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 0 10px 0 600px;
+    position:relative;
+    bottom: 50px;
+    right: 10px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px
+}
+/*eyeBrows*/
+
+/*father & child*/
+
+.eyes{
+    margin: 0 0 0 20px
+}
+
+.eyes .right{
+    margin: 0 0 0 650px
+}
+
+.eyes .left {
+    margin: 0 0 0 500px;
+    position: relative;
+    bottom: 95px;
+    left: 20px
+}
+
+.eyes .father{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    
+}
+
+.eyes .child{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 10px 0 0 10px
+}
+/*father & child*/
+/*eyes*/
+
+/*nose*/
+.nose{
+    position: relative;
+    bottom: 85px
+}
+
+.nose .right{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(228, 113, 113);
+    border-radius: 100px;
+    margin: 0 0 0 650px;
+    position: relative;
+    bottom: 30px
+}
+
+.nose .middle{
+    background-color: rgb(228, 113, 113);
+    width: 30px;
+    height: 50px;
+    margin: 0 0 0 645px;
+    position: relative;
+    bottom: 20px
+}
+
+.nose .left{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(228, 113, 113);
+    border-radius: 100px;
+    margin: 0 0 0 600px;
+    position: relative;
+    bottom: 100px
+}
+/*nose*/
+
+/*lips*/
+.lips{
+    width: 130px;
+    height: 90px;
+    background-color: red;
+    border-radius: 100px;
+    margin: 0 0 0 595px;
+    position: relative;
+    bottom: 840px;
+    z-index: -1;
+}
+/*lips*/
+
+/*face*/
